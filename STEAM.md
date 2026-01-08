@@ -1,15 +1,10 @@
 # Steam Games
 
 ## HITMAN World of Assassination
-``gamemoderun %command%``
-- ge 8-23 works
-- ge 8-26 works
-- ge 8-32 does not work anymore!
-- exclusive fullscreen 50 instead 30 fps
-- but all settings rainbow lighting
-- doesnt start with 7 9 e h or ge
-- `-USEALLAVAILABLECORES` leads to rainbow lighting
-- disable ecores (number of cores? weak cores?)
+``gamemoderun %command% -USEALLAVAILABLECORES``
+- it used to work best with a proton-ge between (!) 8-23 and 8-26
+- since eminem update that does not work at all anymore. best performance as of january 2026: Proton Hotfix!
+- exclusive fullscreen for better fps
 
 ## Mass Effect Legendary Edition
 ``gamemoderun %command%``
@@ -25,12 +20,12 @@
   - set `enable_game_analytics` in `ccg_custom_settings.txt` to 0
 
 ## Helldivers 2
-``%command% --use-d3d11 -USEALLAVAILABLECORES``
+``--use-d3d11 -USEALLAVAILABLECORES``
 - gamemoderun leads to game guard errors, won't even start with it
-- ge 10-25
-- for some reason dx12 (standard) doesn't work anymore (black screen with running game and hud (you can hear and move normally) as soon as entering any mission), it used to. (uncapped fps, 40-50) and the performance was way better.
+- ge 10-28
 - ingame options:
   - disable cross play (prevent crashing loading into missions screens)
+  - disable async compute in graphics settings
   - cap 30, uncapped will result in laggy mouse and your character walking slow motion
 
 ## Mechabellum
@@ -70,6 +65,10 @@
 - ge10-11
 - singleplayer only, hassle-free out of the box. Way better performance (and no drops / stuttering than Enhanced version)
  
+## Escape from Duckov
+``gamemoderun %command%``
+- Proton Experimental
+
 ## next
 ``gamemoderun %command%``
 - version
