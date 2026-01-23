@@ -32,6 +32,7 @@ Battle.NET / Hots
 
 Battle.NET / StarCraft II
 
+- Play the game in DX9 (instead of default DX11) for way better performance at same visual quality by adding `--renderer=dx9` as additional command line option in Battle.NET client 
 - Add to `C:\users\YOURUSER\Documents\StarCraft II\Variables.txt`
   ```
   frameratecap=60
