@@ -25,8 +25,8 @@ Battle.NET / Hots
 
 - Add to `C:\users\YOURUSER\Documents\Heroes of the Stom\Variables.txt`
   ```
-  frameratecap=60
-  frameratecapGlue=60
+  frameratecap=40
+  frameratecapGlue=30
   ```
   where `frameratecap` is the fps limit during gaming (focus on application) and `frameratecapGlue` is the fps limit while minimized / out of focus / in certain menus. In HOTS this is, sadly, also concerning the animations in champ select.
 
@@ -35,7 +35,7 @@ Battle.NET / StarCraft II
 - Play the game in DX9 (instead of default DX11) for way better performance at same visual quality by adding `--renderer=dx9` as additional command line option in Battle.NET client 
 - Add to `C:\users\YOURUSER\Documents\StarCraft II\Variables.txt`
   ```
-  frameratecap=60
+  frameratecap=40
   frameratecapGlue=12
   ```
   where `frameratecap` is the fps limit during gaming (focus on application) and `frameratecapGlue` is the fps limit while minimized / out of focus / in certain menus.
