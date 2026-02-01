@@ -44,7 +44,14 @@
 
 ## Half Sword Demo / Playtest
 ``gamemoderun %command%``
-- ge10-15
+- ge10-29
+
+## Half Sword Early Access
+``gamemoderun %command%``
+- ge10-29
+- Settings:
+  - Everything on medium seems to run better than everything on Low
+  - "DLSS: Ultra Performance" has no visual degradation and improves FPS by 10. Whatever it does on my Intel iGPU xD
 
 ## LEGO Star Wars
 ``PROTON_USE_WINED3D=1 PROTON_NO_ESYNC=1 PROTON_NO_FSYNC=1 gamemoderun %command%``
