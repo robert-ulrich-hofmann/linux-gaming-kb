@@ -20,9 +20,9 @@
   - set `enable_game_analytics` in `ccg_custom_settings.txt` to 0
 
 ## Helldivers 2
-``--use-d3d11 -USEALLAVAILABLECORES``
+``%command% -USEALLAVAILABLECORES -force-vulkan --use-d3d11``
 - gamemoderun leads to game guard errors, won't even start with it
-- ge 10-28
+- ge 10-29
 - ingame options:
   - disable cross play (prevent crashing loading into missions screens)
   - disable async compute in graphics settings
