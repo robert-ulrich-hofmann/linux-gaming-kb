@@ -1,9 +1,8 @@
 # Steam Games
 
 ## HITMAN World of Assassination
-``gamemoderun %command% -USEALLAVAILABLECORES``
-- it used to work best with a proton-ge between (!) 8-23 and 8-26
-- since eminem update that does not work at all anymore. best performance as of january 2026: Proton Hotfix!
+``%command% -USEALLAVAILABLECORES -force-vulkan --use-d3d11``
+- Proton Hotfix!
 - exclusive fullscreen for better fps
 
 ## Mass Effect Legendary Edition
