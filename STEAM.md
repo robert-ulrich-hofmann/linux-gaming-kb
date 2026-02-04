@@ -46,7 +46,7 @@
 - ge10-29
 
 ## Half Sword Early Access
-``gamemoderun %command%``
+``%command% -USEALLAVAILABLECORES --use-d3d11``
 - ge10-29
 - Settings:
   - Everything on medium seems to run better than everything on Low
