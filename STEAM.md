@@ -47,7 +47,7 @@
 
 ## Half Sword Early Access
 ``%command% -USEALLAVAILABLECORES --use-d3d11``
-- ge10-29
+- Proton Hotfix 
 - Settings:
   - Everything on medium seems to run better than everything on Low
   - "DLSS: Ultra Performance" has no visual degradation and improves FPS by 10. Whatever it does on my Intel iGPU xD
